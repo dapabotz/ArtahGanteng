@@ -986,12 +986,12 @@ TIME-INFO
 🔹Hari : ${week} ${weton}
 🔹Tanggal : ${calender}`
 if (modelmenu == 'butloc'){
-sendButLocation(from, `${menu}`, `${uwu}*💠ArtahZyx💠*${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}allmenu`,buttonText:{displayText:'Allmenu💠'},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'Owner💠'},type:1},{buttonId:`${prefix}script`,buttonText:{displayText:'SCRIPT💠'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, `${uwu}*💠YanzZyx💠*${uwu}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}allmenu`,buttonText:{displayText:'Allmenu💠'},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'Owner💠'},type:1},{buttonId:`${prefix}script`,buttonText:{displayText:'SCRIPT💠'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 }
  else if (modelmenu == 'butlist'){
  	listMsg = {
  buttonText: 'LIST MENU',
- footerText: '💠ArtahZyx💠',
+ footerText: '💠YanZZyx💠',
  description: `${menu}`,
  sections: [
                      {
@@ -1327,7 +1327,7 @@ ${uwu}`
 							"productImage": fs.readFileSync(`./src/logo.jpg`)
 							},
 							"productId": "6017724624966444",
-							"title": "💠ArtahZyx💠",
+							"title": "💠yanZZyx💠",
 							"description": menu.trim(),
 							"currencyCode": "US$",
 							"priceAmount1000": "20000000",
@@ -1343,7 +1343,7 @@ break
 case 'command':
  listMsg = {
  buttonText: 'LIST MENU',
- footerText: '*💠ArtahZyx💠*',
+ footerText: '*💠YanZZyx💠*',
  description: `Hai kak @${stod.split('@')[0]}, Silahkan pilih menu disini`,
  sections: [
                      {
