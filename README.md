@@ -1,7 +1,7 @@
 # ArtahGanteng
 
 # github:
-github.com
+ github.com
 
 # Scan qr
-cliktohere
+ cliktohere
